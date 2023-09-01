@@ -95,15 +95,15 @@
 
 // 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
 
-function numeros(numero, multiplica) {
-  for (let i = 0; i < numero.length; i++) {
-    const resultado = numero[i] * multiplica;
-    console.log(resultado);
-  }
-}
+// function numeros(numero, multiplica) {
+//   for (let i = 0; i < numero.length; i++) {
+//     const resultado = numero[i] * multiplica;
+//     console.log(resultado);
+//   }
+// }
 
-const numero = [3, 5, 7, 9, 11];
+// const numero = [3, 5, 7, 9, 11];
 
-const multiplica = [3];
+// const multiplica = [3];
 
-numeros(numero, multiplica);
+// numeros(numero, multiplica);
