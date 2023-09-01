@@ -65,11 +65,45 @@
 
 // 6 - Crear una función que reciba un array por parámetro e imprima por consola todos los valores de ese array.
 
-// function ProgramasDiseño(programas) {
-//   const programas = [Photoshop, Illustrator, AfterEffects];
-//   console.log(programas);
+// function ProgramasDiseño() {
+//   for (let i = 0; i < 4; i++) {
+//     console.log(programas[i]);
+//   }
 // }
-// programas();
+
+// const programas = ["Photoshop", "Illustrator", "AfterEffects", "Premiere"];
+
+// ProgramasDiseño();
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   -
 
 // 7 - Crear una función que reciba un array con 10 números e imprima por consola todos los valores de ese array, menos el que se encuentre en la 5ta posición del mismo. Ayuda: Recuerden que el primer índice de un array es "0".
+
+// function SacamosElQuinto(numeros) {
+//   for (let i = 0; i < numeros.length; i++) {
+//     if (i !== 4) {
+//       console.log(numeros[i]);
+//     }
+//   }
+// }
+
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// SacamosElQuinto(nums);
+
+// ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   -
+
 // 8 - Crea una función que reciba un array de números y un número por parámetro e imprima por consola cada número del array multiplicado por el número pasado por parámetro.
+
+function numeros(numero, multiplica) {
+  for (let i = 0; i < numero.length; i++) {
+    const resultado = numero[i] * multiplica;
+    console.log(resultado);
+  }
+}
+
+const numero = [3, 5, 7, 9, 11];
+
+const multiplica = [3];
+
+numeros(numero, multiplica);
